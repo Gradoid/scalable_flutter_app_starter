@@ -11,12 +11,16 @@ Watch/star this repo to be notified when updates are pushed.
 - [X] Navigation using [go_router](https://pub.dev/packages/go_router)
 - [X] Scalable App Styling
 - [X] GitHub Actions - code and formatting check
+- [X] Responsive Design
 - [ ] Google Fonts
-- [ ] Responsive Design
 - [ ] Onboarding
 - [ ] Code comments
 - [ ] Mock Providers
 - [ ] Sign in and Sign Up Pages
+- [ ] Profile Page
+- [ ] Legal Page: Terms, Policy, Data Deletion
+- [ ] Settings Page: sign out, app version...
+- [ ] Documentation
 
 ## Pro - $200 off presale
 
@@ -37,6 +41,7 @@ Scalable Flutter App - Pro launches in November.
 - [ ] Firebase Storage
 - [ ] Google Sign In
 - [ ] Apple Sign In
+- [ ] Email Link Sign In
 - [ ] Common Cubits
 - [ ] In App Purchases (RevenueCat)
 - [ ] App Store Review Request
@@ -47,6 +52,8 @@ Scalable Flutter App - Pro launches in November.
 - [ ] Environments
 - [ ] Localization
 - [ ] Dark Mode
+- [ ] Connectivity check
+- [ ] Hive - local database
 - [ ] 🎉 BONUS: Scalable Firebase Backend Project Template: Cloud Functions & Firestore Security Rules
 
 ...and much more!
@@ -55,4 +62,4 @@ Scalable Flutter App - Pro launches in November.
 
 Build your app icon in minutes (free): [Icon Kitchen](https://icon.kitchen/)
 
-Want me to launch your MVP in 4 weeks? [Go to App Launch Program](https://applaunchprogram.com/)
+Want me to launch your MVP in 4 weeks (premium)? [Go to App Launch Program](https://applaunchprogram.com/)

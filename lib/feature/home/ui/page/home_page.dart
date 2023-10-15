@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scalable_flutter_app_starter/core/extension/context.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -10,34 +11,80 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
+  final _tabs = <_HomeTab>[
+    _HomeTab(
+      label: 'Home',
+      icon: Icons.home,
+      builder: (context) => const Center(child: Text('Home')),
+    ),
+    _HomeTab(
+      label: 'Explore',
+      icon: Icons.explore,
+      builder: (context) => const Center(child: Text('Explore')),
+    ),
+    _HomeTab(
+      label: 'Profile',
+      icon: Icons.person,
+      builder: (context) => const Center(child: Text('Profile')),
+    ),
+  ];
+
   @override
   Widget build(BuildContext context) {
-    const tabs = <Widget>[
-      Center(child: Text('Home')),
-      Center(child: Text('Explore')),
-      Center(child: Text('Profile')),
-    ];
+    final Widget body;
+    final Widget? bottomNavigationBar;
+    final content = _tabs[_selectedIndex].builder(context);
 
-    return Scaffold(
-      body: SafeArea(child: tabs[_selectedIndex]),
-      bottomNavigationBar: BottomNavigationBar(
+    if (context.isWide) {
+      body = Row(
+        children: [
+          NavigationRail(
+            selectedIndex: _selectedIndex,
+            onDestinationSelected: (index) {
+              setState(() => _selectedIndex = index);
+            },
+            destinations: [
+              for (final tab in _tabs)
+                NavigationRailDestination(
+                  label: Text(tab.label),
+                  icon: Icon(tab.icon),
+                ),
+            ],
+          ),
+          Expanded(child: content),
+        ],
+      );
+      bottomNavigationBar = null;
+    } else {
+      body = content;
+      bottomNavigationBar = BottomNavigationBar(
         currentIndex: _selectedIndex,
         onTap: (index) => setState(() => _selectedIndex = index),
-        items: const [
-          BottomNavigationBarItem(
-            label: 'Home',
-            icon: Icon(Icons.home),
-          ),
-          BottomNavigationBarItem(
-            label: 'Explore',
-            icon: Icon(Icons.explore),
-          ),
-          BottomNavigationBarItem(
-            label: 'Profile',
-            icon: Icon(Icons.person),
-          ),
+        items: [
+          for (final tab in _tabs)
+            BottomNavigationBarItem(
+              label: tab.label,
+              icon: Icon(tab.icon),
+            ),
         ],
-      ),
+      );
+    }
+
+    return Scaffold(
+      body: body,
+      bottomNavigationBar: bottomNavigationBar,
     );
   }
+}
+
+class _HomeTab {
+  const _HomeTab({
+    required this.label,
+    required this.icon,
+    required this.builder,
+  });
+
+  final String label;
+  final IconData icon;
+  final WidgetBuilder builder;
 }

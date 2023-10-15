@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scalable_flutter_app_starter/core/ui/widget/responsive.dart';
 
 extension Context on BuildContext {
   TextTheme get textTheme => Theme.of(this).textTheme;
@@ -33,5 +34,10 @@ extension Context on BuildContext {
         ),
       ),
     );
+  }
+
+  bool get isWide {
+    final maxWidth = MediaQuery.sizeOf(this).width;
+    return maxWidth > wideBreakpoint;
   }
 }

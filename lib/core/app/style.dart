@@ -107,6 +107,10 @@ ThemeData _getTheme() {
       showSelectedLabels: true,
       showUnselectedLabels: true,
     ),
+    navigationRailTheme: const NavigationRailThemeData(
+      labelType: NavigationRailLabelType.all,
+      groupAlignment: 0,
+    ),
     appBarTheme: AppBarTheme(
       titleTextStyle: textTheme.titleLarge,
       backgroundColor: _background,
