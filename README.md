@@ -12,15 +12,16 @@ Watch/star this repo to be notified when updates are pushed.
 - [X] Scalable App Styling
 - [X] GitHub Actions - code and formatting check
 - [X] Responsive Design
+- [X] Mock Providers
+- [ ] Profile Page
+- [ ] Sign in and Sign Up Pages
+- [ ] Settings Page: sign out, app version...
+- [ ] Legal Page: Terms, Policy, Data Deletion
 - [ ] Google Fonts
 - [ ] Onboarding
 - [ ] Code comments
-- [ ] Mock Providers
-- [ ] Sign in and Sign Up Pages
-- [ ] Profile Page
-- [ ] Legal Page: Terms, Policy, Data Deletion
-- [ ] Settings Page: sign out, app version...
-- [ ] Documentation
+- [ ] Cached network image
+- [ ] Documentation, libraries, reasoning
 
 ## Pro - $200 off presale
 
@@ -63,3 +64,7 @@ Scalable Flutter App - Pro launches in November.
 Build your app icon in minutes (free): [Icon Kitchen](https://icon.kitchen/)
 
 Want me to launch your MVP in 4 weeks (premium)? [Go to App Launch Program](https://applaunchprogram.com/)
+
+## Feedback
+
+Found an issue or want to request a feature? Open an [issue](https://github.com/Gradoid/scalable_flutter_app_starter/issues)

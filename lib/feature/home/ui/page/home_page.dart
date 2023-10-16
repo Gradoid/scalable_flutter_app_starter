@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context.dart';
+import 'package:scalable_flutter_app_starter/feature/user/ui/widget/profile_tab.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -25,7 +26,7 @@ class _HomePageState extends State<HomePage> {
     _HomeTab(
       label: 'Profile',
       icon: Icons.person,
-      builder: (context) => const Center(child: Text('Profile')),
+      builder: (context) => const ProfileTab(),
     ),
   ];
 
