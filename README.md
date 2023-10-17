@@ -27,7 +27,7 @@ Watch/star this repo to be notified when updates are pushed.
 
 Want more features? Check out the pro version.
 
-Get your $200 off presale here (use `APP200` discount code): [$200 OFF](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
+Get your $200 off presale here (limited to first 10 customers, use `APP200` discount code): [$200 OFF](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
 
 Scalable Flutter App - Pro launches in November.
 

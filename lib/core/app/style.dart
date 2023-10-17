@@ -48,13 +48,13 @@ ThemeData _getTheme() {
   );
 
   final buttonShape = RoundedRectangleBorder(
-    borderRadius: BorderRadius.circular(4),
+    borderRadius: BorderRadius.circular(16),
   );
   const buttonPadding = EdgeInsets.symmetric(
     horizontal: 24,
-    vertical: 24,
+    vertical: 12,
   );
-  final buttonTextStyle = textTheme.headlineMedium;
+  final buttonTextStyle = textTheme.titleMedium;
 
   return ThemeData(
     useMaterial3: true,
@@ -164,7 +164,7 @@ ThemeData _getTheme() {
         backgroundColor: colorScheme.primary,
         foregroundColor: colorScheme.onPrimary,
         textStyle: buttonTextStyle,
-        elevation: 4,
+        elevation: 2,
       ),
     ),
     outlinedButtonTheme: OutlinedButtonThemeData(
