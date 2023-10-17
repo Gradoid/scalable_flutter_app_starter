@@ -16,14 +16,14 @@ Watch/star this repo to be notified when updates are pushed.
 - [X] Profile Page
 - [X] Settings Page: sign out, app version...
 - [X] Legal Page: Terms, Policy, Data Deletion
+- [X] Google Fonts
 - [ ] Sign in and Sign Up Pages
-- [ ] Google Fonts
 - [ ] Onboarding
 - [ ] Code comments
 - [ ] Cached network image
 - [ ] Documentation, libraries, reasoning
 
-## Pro - $200 off presale
+## Pro - $200 off presale (first 10 customers)
 
 Want more features? Check out the pro version.
 
@@ -58,6 +58,17 @@ Scalable Flutter App - Pro launches in November.
 - [ ] 🎉 BONUS: Scalable Firebase Backend Project Template: Cloud Functions & Firestore Security Rules
 
 ...and much more!
+
+## Docs
+
+### Google Fonts
+
+To change the font:
+
+1. Go to [Google Fonts](https://fonts.google.com/) and select a font.
+2. Download the font files.
+3. Add the font files to `assets/fonts` (remove the old ones).
+4. Update `style.dart` with the new font (i.e. `return GoogleFonts.rubikTextTheme(textTheme)`).
 
 ## Resources
 

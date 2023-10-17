@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 final lightTheme = _getTheme();
 
@@ -208,7 +209,7 @@ TextTheme _getTextTheme(ColorScheme colorScheme) {
 
   const labelColor = titleColor;
 
-  return const TextTheme(
+  const textTheme = TextTheme(
     // Headline
     headlineLarge: TextStyle(
       fontSize: 24,
@@ -300,4 +301,6 @@ TextTheme _getTextTheme(ColorScheme colorScheme) {
       fontWeight: bodyWeight,
     ),
   );
+
+  return GoogleFonts.rubikTextTheme(textTheme);
 }
