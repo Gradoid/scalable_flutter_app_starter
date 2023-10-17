@@ -15,8 +15,8 @@ Watch/star this repo to be notified when updates are pushed.
 - [X] Mock Providers
 - [X] Profile Page
 - [X] Settings Page: sign out, app version...
+- [X] Legal Page: Terms, Policy, Data Deletion
 - [ ] Sign in and Sign Up Pages
-- [ ] Legal Page: Terms, Policy, Data Deletion
 - [ ] Google Fonts
 - [ ] Onboarding
 - [ ] Code comments

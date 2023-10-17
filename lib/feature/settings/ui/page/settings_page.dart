@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:scalable_flutter_app_starter/core/ui/dialog/dialogs.dart';
+import 'package:scalable_flutter_app_starter/core/util/urls.dart';
 import 'package:scalable_flutter_app_starter/feature/settings/ui/widget/app_version.dart';
 import 'package:scalable_flutter_app_starter/feature/settings/ui/widget/settings_tile.dart';
 
@@ -15,8 +16,23 @@ class SettingsPage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
+          const SettingsTile(
+            icon: Icons.security_outlined,
+            label: 'Privacy Policy',
+            onTap: Urls.showPrivacyPolicy,
+          ),
+          const SettingsTile(
+            icon: Icons.fact_check_outlined,
+            label: 'Terms of Service',
+            onTap: Urls.showTermsOfService,
+          ),
           SettingsTile(
-            icon: Icons.logout,
+            icon: Icons.delete_outlined,
+            label: 'Delete Account',
+            onTap: () => Dialogs.showDeleteAccountConfirmationDialog(context),
+          ),
+          SettingsTile(
+            icon: Icons.logout_outlined,
             label: 'Sign Out',
             onTap: () => Dialogs.showLogOutConfirmationDialog(context),
           ),
