@@ -212,21 +212,21 @@ TextTheme _getTextTheme(ColorScheme colorScheme) {
   return const TextTheme(
     // Headline
     headlineLarge: TextStyle(
-      fontSize: 26,
+      fontSize: 24,
       height: headlineHeight,
       letterSpacing: headlineLetterSpacing,
       color: headlineColor,
       fontWeight: headlineWeight,
     ),
     headlineMedium: TextStyle(
-      fontSize: 18,
+      fontSize: 20,
       height: headlineHeight,
       letterSpacing: headlineLetterSpacing,
       color: headlineColor,
       fontWeight: headlineWeight,
     ),
     headlineSmall: TextStyle(
-      fontSize: 25,
+      fontSize: 18,
       height: headlineHeight,
       letterSpacing: headlineLetterSpacing,
       color: headlineColor,
@@ -235,7 +235,7 @@ TextTheme _getTextTheme(ColorScheme colorScheme) {
 
     // Title
     titleLarge: TextStyle(
-      fontSize: 32,
+      fontSize: 20,
       height: titleHeight,
       letterSpacing: titleLetterSpacing,
       color: titleColor,
