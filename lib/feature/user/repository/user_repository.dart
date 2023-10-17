@@ -5,6 +5,11 @@ class UserRepository {
   final _userProvider = UserMockProvider();
 
   Stream<User?> getUserStream() {
-    return _userProvider.getUserStream(isLoggedIn: true);
+    _userProvider.triggerLoggedIn();
+    return _userProvider.getUserStream();
+  }
+
+  void logOut() {
+    _userProvider.triggerLoggedOut();
   }
 }

@@ -25,6 +25,10 @@ class UserCubit extends Cubit<UserState> with BlocLoggy {
     return super.close();
   }
 
+  void logOut() {
+    userRepository.logOut();
+  }
+
   void _load() {
     _userSubscription = userRepository.getUserStream().listen(_onUser);
   }

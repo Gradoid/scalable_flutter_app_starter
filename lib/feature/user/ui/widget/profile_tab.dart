@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:scalable_flutter_app_starter/core/app/navigation/route.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context_user.dart';
 
@@ -21,7 +22,7 @@ class ProfileTab extends StatelessWidget {
       appBar: AppBar(
         actions: [
           IconButton(
-            onPressed: () {},
+            onPressed: () => AppRoute.settings.push(context),
             icon: const Icon(Icons.settings),
           ),
         ],

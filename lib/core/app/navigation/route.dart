@@ -3,7 +3,9 @@ import 'package:go_router/go_router.dart';
 
 enum AppRoute {
   splash('/'),
-  home('/home');
+  home('/home'),
+  settings('/settings'),
+  ;
 
   const AppRoute(this.path);
 
@@ -12,4 +14,6 @@ enum AppRoute {
 
 extension AppRouteNavigation on AppRoute {
   void go(BuildContext context) => context.go(path);
+
+  void push(BuildContext context) => context.push(path);
 }

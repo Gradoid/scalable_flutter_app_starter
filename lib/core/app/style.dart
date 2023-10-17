@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 final lightTheme = _getTheme();
 
-const _primary = Colors.amber;
-const _secondary = Colors.blue;
+const _primary = Colors.indigo;
+const _secondary = Colors.amber;
 
 const _background = Color(0xFFF5F5F5);
 const _lightest = Colors.white;
@@ -127,9 +127,8 @@ ThemeData _getTheme() {
         borderRadius: BorderRadius.all(Radius.circular(8)),
       ),
     ),
-    listTileTheme: const ListTileThemeData(
-      contentPadding: EdgeInsets.symmetric(horizontal: 8, vertical: 0),
-      visualDensity: VisualDensity(vertical: -4),
+    listTileTheme: ListTileThemeData(
+      iconColor: colorScheme.primary,
     ),
     inputDecorationTheme: InputDecorationTheme(
       fillColor: Colors.white,
@@ -272,7 +271,7 @@ TextTheme _getTextTheme(ColorScheme colorScheme) {
       fontWeight: bodyWeight,
     ),
     bodySmall: TextStyle(
-      fontSize: 10,
+      fontSize: 12,
       height: bodyHeight,
       color: bodyColor,
       fontWeight: bodyWeight,

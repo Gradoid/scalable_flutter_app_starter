@@ -13,9 +13,9 @@ Watch/star this repo to be notified when updates are pushed.
 - [X] GitHub Actions - code and formatting check
 - [X] Responsive Design
 - [X] Mock Providers
-- [ ] Profile Page
+- [X] Profile Page
+- [X] Settings Page: sign out, app version...
 - [ ] Sign in and Sign Up Pages
-- [ ] Settings Page: sign out, app version...
 - [ ] Legal Page: Terms, Policy, Data Deletion
 - [ ] Google Fonts
 - [ ] Onboarding
