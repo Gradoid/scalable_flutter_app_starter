@@ -5,7 +5,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:loggy/loggy.dart';
 import 'package:scalable_flutter_app_starter/core/app/app.dart';
+import 'package:scalable_flutter_app_starter/feature/auth/repository/auth_repository.dart';
 import 'package:scalable_flutter_app_starter/feature/user/bloc/user_cubit.dart';
+import 'package:scalable_flutter_app_starter/feature/user/provider/user_mock_provider.dart';
 import 'package:scalable_flutter_app_starter/feature/user/repository/user_repository.dart';
 
 void main() {
@@ -13,11 +15,20 @@ void main() {
   _initLoggy();
   _initGoogleFonts();
 
+  final userProvider = UserMockProvider();
+
   runApp(
     MultiRepositoryProvider(
       providers: [
         RepositoryProvider<UserRepository>(
-          create: (context) => UserRepository(),
+          create: (context) => UserRepository(
+            userProvider: userProvider,
+          ),
+        ),
+        RepositoryProvider<AuthRepository>(
+          create: (context) => AuthRepository(
+            userProvider: userProvider,
+          ),
         ),
       ],
       child: MultiBlocProvider(

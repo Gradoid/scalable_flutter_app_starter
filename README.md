@@ -4,6 +4,22 @@
 
 Watch/star this repo to be notified when updates are pushed.
 
+## About Me
+
+I'm Milos Jokic and I:
+
+- built my first mobile app in 2007
+- grew my apps to 214k users and $106,140 revenue.
+- built apps for 10 Toptal clients.
+
+And now I run a 6-figure devs agency where we launch MVPs in 4 weeks using Flutter & Firebase.
+
+You can find me on:
+
+- [LinkedIn](https://www.linkedin.com/in/milos-jokic/)
+- [Twitter](https://twitter.com/miloshjokic)
+- [Newsletter](http://flutterpreneur.com/)
+
 ## Starter Features
 
 - [X] Platforms: Android, iOS, web
@@ -12,16 +28,18 @@ Watch/star this repo to be notified when updates are pushed.
 - [X] Scalable App Styling
 - [X] GitHub Actions - code and formatting check
 - [X] Responsive Design
-- [X] Mock Providers
+- [X] UserMockProvider
 - [X] Profile Page
 - [X] Settings Page: sign out, app version...
-- [X] Legal Page: Terms, Policy, Data Deletion
+- [X] Legal: Terms, Policy, Data Deletion
 - [X] Google Fonts
-- [ ] Sign in and Sign Up Pages
+- [X] Sign in and Sign Up Pages
+- [ ] Input Validators
 - [ ] Onboarding
 - [ ] Code comments
 - [ ] Cached network image
 - [ ] Documentation, libraries, reasoning
+- [ ] Useful GitHub Pull Request Settings
 
 ## Pro - $200 off presale (first 10 customers)
 
@@ -33,6 +51,8 @@ Scalable Flutter App - Pro launches in November.
 
 ## Pro - Features
 
+- [X] Email Support
+- [X] Lifetime updates
 - [ ] Firebase Project Integration
 - [ ] Firebase Authentication
 - [ ] Firebase Remote Config
@@ -55,6 +75,8 @@ Scalable Flutter App - Pro launches in November.
 - [ ] Dark Mode
 - [ ] Connectivity check
 - [ ] Hive - local database
+- [ ] MixPanel - analytics
+- [ ] Android - Release Signing
 - [ ] 🎉 BONUS: Scalable Firebase Backend Project Template: Cloud Functions & Firestore Security Rules
 
 ...and much more!
@@ -79,3 +101,5 @@ Want me to launch your MVP in 4 weeks (premium)? [Go to App Launch Program](http
 ## Feedback
 
 Found an issue or want to request a feature? Open an [issue](https://github.com/Gradoid/scalable_flutter_app_starter/issues)
+
+Have a question? Ask me on [LinkedIn](https://www.linkedin.com/in/milos-jokic/) or [Twitter](https://twitter.com/miloshjokic).

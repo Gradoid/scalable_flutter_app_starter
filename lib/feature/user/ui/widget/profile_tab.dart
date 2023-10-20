@@ -12,7 +12,7 @@ class ProfileTab extends StatelessWidget {
     if (user == null) {
       return Center(
         child: ElevatedButton(
-          onPressed: () {},
+          onPressed: () => AppRoute.auth.push(context),
           child: const Text('Sign In'),
         ),
       );

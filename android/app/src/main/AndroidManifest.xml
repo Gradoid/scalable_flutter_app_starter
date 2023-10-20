@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="scalable_flutter_app_starter"
+        android:label="Scalable Flutter App Starter"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

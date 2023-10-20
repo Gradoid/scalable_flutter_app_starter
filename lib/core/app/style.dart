@@ -119,6 +119,7 @@ ThemeData _getTheme() {
     dialogTheme: DialogTheme(
       backgroundColor: colorScheme.background,
       surfaceTintColor: colorScheme.background,
+      titleTextStyle: textTheme.titleLarge,
     ),
     snackBarTheme: SnackBarThemeData(
       behavior: SnackBarBehavior.floating,
