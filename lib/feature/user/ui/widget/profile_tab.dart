@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context_user.dart';
 import 'package:scalable_flutter_app_starter/core/navigation/route.dart';
+import 'package:scalable_flutter_app_starter/feature/user/ui/widget/user_image.dart';
 
 class ProfileTab extends StatelessWidget {
   const ProfileTab({super.key});
@@ -30,10 +31,7 @@ class ProfileTab extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            CircleAvatar(
-              radius: 48,
-              backgroundImage: NetworkImage(user.imageUrl),
-            ),
+            UserImage.medium(user.imageUrl),
             const SizedBox(height: 16),
             Text(
               user.name,

@@ -37,7 +37,7 @@ You can find me on:
 - [X] Google Fonts
 - [X] Sign in and Sign Up Pages
 - [X] Input Validators
-- [ ] Cached network image
+- [X] Cached network image
 
 ## Pro - $200 off presale (first 10 customers)
 

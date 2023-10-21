@@ -19,6 +19,7 @@ dependencies:
   package_info_plus: ^4.2.0
   url_launcher: ^6.1.14
   google_fonts: ^6.1.0
+  cached_network_image: ^3.3.0
 
   # iOS
   cupertino_icons: ^1.0.2
