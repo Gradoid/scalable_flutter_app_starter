@@ -133,7 +133,6 @@ ThemeData _getTheme() {
       iconColor: colorScheme.primary,
     ),
     inputDecorationTheme: InputDecorationTheme(
-      fillColor: Colors.white,
       filled: true,
       floatingLabelBehavior: FloatingLabelBehavior.auto,
       contentPadding: const EdgeInsets.symmetric(

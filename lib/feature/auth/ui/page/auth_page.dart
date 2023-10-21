@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:scalable_flutter_app_starter/core/app/navigation/route.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context.dart';
+import 'package:scalable_flutter_app_starter/core/ui/input/input_field.dart';
 import 'package:scalable_flutter_app_starter/core/ui/widget/labeled_text_button.dart';
 import 'package:scalable_flutter_app_starter/core/ui/widget/loading_overlay.dart';
+import 'package:scalable_flutter_app_starter/core/ui/widget/responsive.dart';
 import 'package:scalable_flutter_app_starter/feature/auth/bloc/auth_cubit.dart';
 
 class AuthPage extends StatefulWidget {
@@ -25,54 +27,52 @@ class _AuthPageState extends State<AuthPage> {
     return BlocConsumer<AuthCubit, AuthState>(
       listener: _onAuthState,
       builder: (context, state) {
-        return Scaffold(
-          body: LoadingOverlay(
-            loading: state is AuthLoading,
-            child: Form(
-              key: _formKey,
-              child: SafeArea(
-                child: Padding(
-                  padding: const EdgeInsets.all(16),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      const Spacer(),
-                      Text(
-                        _isSignUp
-                            ? 'Sign up to continue'
-                            : 'Sign in to continue',
-                        style: context.textTheme.titleLarge,
-                      ),
-                      const SizedBox(height: 16),
-                      TextFormField(
-                        controller: _emailController,
-                        decoration: const InputDecoration(
-                          labelText: 'Email',
+        return LoadingOverlay(
+          loading: state is AuthLoading,
+          child: Scaffold(
+            appBar: AppBar(),
+            body: ConstrainedWidth.mobile(
+              child: Form(
+                key: _formKey,
+                child: SafeArea(
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        const Spacer(),
+                        Text(
+                          _isSignUp
+                              ? 'Sign up to continue'
+                              : 'Sign in to continue',
+                          style: context.textTheme.titleLarge,
                         ),
-                      ),
-                      const SizedBox(height: 16),
-                      TextFormField(
-                        controller: _passwordController,
-                        decoration: const InputDecoration(
-                          labelText: 'Password',
+                        const SizedBox(height: 16),
+                        InputField.email(
+                          controller: _emailController,
                         ),
-                        onFieldSubmitted: (_) => _submit(),
-                      ),
-                      const SizedBox(height: 32),
-                      ElevatedButton(
-                        onPressed: _submit,
-                        child: Text(_isSignUp ? 'Sign Up' : 'Sign In'),
-                      ),
-                      const SizedBox(height: 4),
-                      LabeledTextButton(
-                        label: _isSignUp
-                            ? 'Already have an account?'
-                            : 'Don’t have an account?',
-                        action: _isSignUp ? 'Sign in' : 'Sign up',
-                        onTap: () => setState(() => _isSignUp = !_isSignUp),
-                      ),
-                      const Spacer(),
-                    ],
+                        const SizedBox(height: 16),
+                        InputField.password(
+                          controller: _passwordController,
+                          textInputAction: TextInputAction.done,
+                          onFieldSubmitted: (_) => _submit(),
+                        ),
+                        const SizedBox(height: 32),
+                        ElevatedButton(
+                          onPressed: _submit,
+                          child: Text(_isSignUp ? 'Sign Up' : 'Sign In'),
+                        ),
+                        const SizedBox(height: 8),
+                        LabeledTextButton(
+                          label: _isSignUp
+                              ? 'Already have an account?'
+                              : 'Don’t have an account?',
+                          action: _isSignUp ? 'Sign in' : 'Sign up',
+                          onTap: () => setState(() => _isSignUp = !_isSignUp),
+                        ),
+                        const Spacer(),
+                      ],
+                    ),
                   ),
                 ),
               ),

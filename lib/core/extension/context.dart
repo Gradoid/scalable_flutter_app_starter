@@ -38,6 +38,6 @@ extension Context on BuildContext {
 
   bool get isWide {
     final maxWidth = MediaQuery.sizeOf(this).width;
-    return maxWidth > wideBreakpoint;
+    return maxWidth > desktopWidthBreakpoint;
   }
 }

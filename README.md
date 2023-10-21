@@ -34,12 +34,10 @@ You can find me on:
 - [X] Legal: Terms, Policy, Data Deletion
 - [X] Google Fonts
 - [X] Sign in and Sign Up Pages
-- [ ] Input Validators
-- [ ] Onboarding
-- [ ] Code comments
+- [X] Input Validators
 - [ ] Cached network image
-- [ ] Documentation, libraries, reasoning
 - [ ] Useful GitHub Pull Request Settings
+- [ ] Documentation, libraries, reasoning
 
 ## Pro - $200 off presale (first 10 customers)
 
@@ -77,6 +75,8 @@ Scalable Flutter App - Pro launches in November.
 - [ ] Hive - local database
 - [ ] MixPanel - analytics
 - [ ] Android - Release Signing
+- [ ] Onboarding
+- [ ] Forgot Password
 - [ ] 🎉 BONUS: Scalable Firebase Backend Project Template: Cloud Functions & Firestore Security Rules
 
 ...and much more!
