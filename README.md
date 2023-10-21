@@ -4,6 +4,8 @@
 
 Watch/star this repo to be notified when updates are pushed.
 
+To get started, click on the green "Use this template" button on the top-right.
+
 ## About Me
 
 I'm Milos Jokic and I:
@@ -36,8 +38,6 @@ You can find me on:
 - [X] Sign in and Sign Up Pages
 - [X] Input Validators
 - [ ] Cached network image
-- [ ] Useful GitHub Pull Request Settings
-- [ ] Documentation, libraries, reasoning
 
 ## Pro - $200 off presale (first 10 customers)
 
@@ -83,6 +83,33 @@ Scalable Flutter App - Pro launches in November.
 
 ## Docs
 
+### Code Architecture
+
+The code architecture is based on [flutter_bloc architecture proposal](https://bloclibrary.dev/#/architecture).
+
+There are 4 layers:
+
+1. UI (Flutter Widgets)
+2. BLoC (stateful business logic)
+3. Repository (high-level API)
+4. Provider (low-level implementation)
+
+And there's only 1 communication rule that we must follow:
+
+_**The layer can only call the one layer below it.**_
+
+That means that:
+
+- UI can only call BLoC
+- BLoC can only call Repository
+- Repository can only call Provider
+- Provider can only call external services (Firebase, HTTP, etc.)
+
+And we avoid same-layer communication (as it creates interdependencies):
+
+- `UserRepository` calling `AuthRepository` is _**not**_ allowed.
+- `UserCubit` calling `UserRepository` and `AuthRepository` is allowed.
+
 ### Google Fonts
 
 To change the font:
@@ -92,9 +119,30 @@ To change the font:
 3. Add the font files to `assets/fonts` (remove the old ones).
 4. Update `style.dart` with the new font (i.e. `return GoogleFonts.rubikTextTheme(textTheme)`).
 
+### Useful GitHub Pull Request Settings
+
+I've found that turning on these 2 settings in GitHub repo settings helps a lot:
+
+1. `Always suggest updating pull request branches`
+2. `Automatically delete head branches`
+
+## FAQ
+
+### Why flutter_bloc and not X?
+
+While GetX, Provider, Riverpod, MobX, Redux, etc. are all great solutions,
+most of them are too forgiving. They allow us to access and change state globally.
+
+Whereas [flutter_bloc](https://bloclibrary.dev/) forces us to have `BuildContext`
+in order to access and change the state. The stricter the rules, the harder it is to make mistakes.
+
+And flutter_bloc has a great [architecture proposal](https://bloclibrary.dev/#/architecture) that scales well.
+
 ## Resources
 
 Build your app icon in minutes (free): [Icon Kitchen](https://icon.kitchen/)
+
+CI/CD for mobile apps (free & paid): [Codemagic](https://codemagic.io/)
 
 Want me to launch your MVP in 4 weeks (premium)? [Go to App Launch Program](https://applaunchprogram.com/)
 

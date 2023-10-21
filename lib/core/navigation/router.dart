@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:scalable_flutter_app_starter/core/app/navigation/route.dart';
+import 'package:scalable_flutter_app_starter/core/navigation/route.dart';
 import 'package:scalable_flutter_app_starter/feature/auth/bloc/auth_cubit.dart';
 import 'package:scalable_flutter_app_starter/feature/auth/repository/auth_repository.dart';
 import 'package:scalable_flutter_app_starter/feature/auth/ui/page/auth_page.dart';

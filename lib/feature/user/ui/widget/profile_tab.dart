@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:scalable_flutter_app_starter/core/app/navigation/route.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context.dart';
 import 'package:scalable_flutter_app_starter/core/extension/context_user.dart';
+import 'package:scalable_flutter_app_starter/core/navigation/route.dart';
 
 class ProfileTab extends StatelessWidget {
   const ProfileTab({super.key});
