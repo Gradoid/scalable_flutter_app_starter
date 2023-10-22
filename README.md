@@ -20,6 +20,9 @@ Watch/star this repo to be notified when updates are pushed.
   * [Useful GitHub Pull Request Settings](#useful-github-pull-request-settings)
 * [FAQ](#faq)
   * [Why bloc and not X?](#why-bloc-and-not-x)
+  * [Who is Scalable Flutter App for?](#who-is-scalable-flutter-app-for)
+  * [Where to learn Flutter basics?](#where-to-learn-flutter-basics)
+  * [What if I want more?](#what-if-i-want-more)
 * [Resources](#resources)
 * [Feedback](#feedback)
 <!-- TOC -->
@@ -179,6 +182,30 @@ in order to access and change the state. The stricter the rules, the harder it i
 
 And flutter_bloc has a great [architecture proposal](https://bloclibrary.dev/#/architecture) that
 scales well.
+
+## Who is Scalable Flutter App for?
+
+Scalable Flutter App is for developers, agencies, and founders who want to:
+
+- build scalable Flutter apps
+- save weeks of development time
+- learn best practices
+
+## Where to learn Flutter basics?
+
+I can only recommend what I've used myself:
+
+- [Flutter Codelabs](https://docs.flutter.dev/codelabs)
+- [Flutter YouTube](https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw)
+- [Effective Dart](https://dart.dev/guides/language/effective-dart)
+- and just keep building apps and getting better with each one :)
+
+## What if I want more?
+
+If you want Firebase integration, notifications, in-app purchases and more,
+you can get the Pro version here ($200-off discount is limited to first 10 customers only):
+
+[Get Your Scalable Flutter App PRO for $47 ($200 OFF)](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
 
 # Resources
 
