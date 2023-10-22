@@ -1,22 +1,25 @@
-# Scalable Flutter App - Starter
+# Scalable Flutter App Starter
 
 👋 Hey, welcome to Scalable Flutter App.
 
 Watch/star this repo to be notified when updates are pushed.
 
+## Table of Contents
+
 <!-- TOC -->
-* [Scalable Flutter App - Starter](#scalable-flutter-app---starter)
+* [Scalable Flutter App Starter](#scalable-flutter-app-starter)
+  * [Table of Contents](#table-of-contents)
   * [What is Scalable Flutter App?](#what-is-scalable-flutter-app)
   * [About the Author](#about-the-author)
-* [Features: Starter and Pro](#features--starter-and-pro)
-  * [Pro - $200 OFF PRESALE (first 10 customers)](#pro---200-off-presale--first-10-customers-)
+* [Features](#features)
+  * [Pro Presale Discount](#pro-presale-discount)
 * [Docs](#docs)
   * [Code Architecture](#code-architecture)
   * [Styling](#styling)
   * [Google Fonts](#google-fonts)
   * [Useful GitHub Pull Request Settings](#useful-github-pull-request-settings)
 * [FAQ](#faq)
-  * [Why flutter_bloc and not X?](#why-flutterbloc-and-not-x)
+  * [Why bloc and not X?](#why-bloc-and-not-x)
 * [Resources](#resources)
 * [Feedback](#feedback)
 <!-- TOC -->
@@ -45,7 +48,7 @@ You can find me on:
 - [Twitter](https://twitter.com/miloshjokic)
 - [Newsletter](http://flutterpreneur.com/)
 
-# Features: Starter and Pro
+# Features
 
 | Feature                                                              | Starter | Pro |
 |----------------------------------------------------------------------|---------|-----|
@@ -93,9 +96,9 @@ You can find me on:
 | Forgot Password                                                      | ❌       | ✅   |
 | 🎉 BONUS: Scalable Firebase Backend Template                         | ❌       | ✅   |
 
-## Pro - $200 OFF PRESALE (first 10 customers)
+## Pro Presale Discount
 
-[Get Your Scalable Flutter App PRO for $200 OFF Here](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
+[Get Your Scalable Flutter App PRO for $47 ($200 OFF) Here](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
 
 $200 off discount code (`APP200`) is limited to first 10 customers.
 
@@ -166,7 +169,7 @@ I've found that turning on these 2 settings in GitHub repo settings helps a lot:
 
 # FAQ
 
-## Why flutter_bloc and not X?
+## Why bloc and not X?
 
 While GetX, Provider, Riverpod, MobX, Redux, etc. are all great solutions,
 most of them are too forgiving. They allow us to access and change state globally.
@@ -185,6 +188,8 @@ CI/CD for mobile apps (free & paid): [Codemagic](https://codemagic.io/)
 
 Want me to launch your MVP in 4 weeks (premium)?
 [Go to App Launch Program](https://applaunchprogram.com/)
+
+Need a Flutter Expert (paid)? [Go to Flutter Devs Board](https://flutterdevsboard.com/)
 
 # Feedback
 
