@@ -4,9 +4,32 @@
 
 Watch/star this repo to be notified when updates are pushed.
 
+<!-- TOC -->
+* [Scalable Flutter App - Starter](#scalable-flutter-app---starter)
+  * [What is Scalable Flutter App?](#what-is-scalable-flutter-app)
+  * [About the Author](#about-the-author)
+* [Features: Starter and Pro](#features--starter-and-pro)
+  * [Pro - $200 OFF PRESALE (first 10 customers)](#pro---200-off-presale--first-10-customers-)
+* [Docs](#docs)
+  * [Code Architecture](#code-architecture)
+  * [Styling](#styling)
+  * [Google Fonts](#google-fonts)
+  * [Useful GitHub Pull Request Settings](#useful-github-pull-request-settings)
+* [FAQ](#faq)
+  * [Why flutter_bloc and not X?](#why-flutterbloc-and-not-x)
+* [Resources](#resources)
+* [Feedback](#feedback)
+<!-- TOC -->
+
+## What is Scalable Flutter App?
+
+Scalable Flutter App is a starter template for Flutter apps.
+
+It's designed to be scalable and easy to maintain. And should save you weeks of development time.
+
 To get started, click on the green "Use this template" button on the top-right.
 
-## About Me
+## About the Author
 
 I'm Milos Jokic and I:
 
@@ -22,70 +45,68 @@ You can find me on:
 - [Twitter](https://twitter.com/miloshjokic)
 - [Newsletter](http://flutterpreneur.com/)
 
-## Starter Features
+# Features: Starter and Pro
 
-- [X] Platforms: Android, iOS, web
-- [X] Scalable Architecture using [flutter_bloc](https://bloclibrary.dev/)
-- [X] Navigation using [go_router](https://pub.dev/packages/go_router)
-- [X] Scalable App Styling
-- [X] GitHub Actions - code and formatting check
-- [X] Responsive Design
-- [X] UserMockProvider
-- [X] Profile Page
-- [X] Settings Page: sign out, app version...
-- [X] Legal: Terms, Policy, Data Deletion
-- [X] Google Fonts
-- [X] Sign in and Sign Up Pages
-- [X] Input Validators
-- [X] Cached network image
+| Feature                                                              | Starter | Pro |
+|----------------------------------------------------------------------|---------|-----|
+| Platforms: Android, iOS, web                                         | ✅       | ✅   |
+| Scalable Architecture using [flutter_bloc](https://bloclibrary.dev/) | ✅       | ✅   |
+| Navigation using [go_router](https://pub.dev/packages/go_router)     | ✅       | ✅   |
+| Scalable App Styling                                                 | ✅       | ✅   |
+| GitHub Actions - code and formatting check                           | ✅       | ✅   |
+| Responsive Design                                                    | ✅       | ✅   |
+| UserMockProvider                                                     | ✅       | ✅   |
+| Profile Page                                                         | ✅       | ✅   |
+| Settings Page: sign out, app version...                              | ✅       | ✅   |
+| Legal: Terms, Policy, Data Deletion                                  | ✅       | ✅   |
+| Google Fonts                                                         | ✅       | ✅   |
+| Sign in and Sign Up Pages                                            | ✅       | ✅   |
+| Input Validators                                                     | ✅       | ✅   |
+| Cached network image                                                 | ✅       | ✅   |
+| Email Support                                                        | ❌       | ✅   |
+| Lifetime Updates                                                     | ❌       | ✅   |
+| Firebase Project Integration                                         | ❌       | ✅   |
+| Firebase Authentication                                              | ❌       | ✅   |
+| Firebase Remote Config                                               | ❌       | ✅   |
+| Firebase Crashlytics                                                 | ❌       | ✅   |
+| Firebase Firestore                                                   | ❌       | ✅   |
+| Firebase Analytics                                                   | ❌       | ✅   |
+| Firebase Storage                                                     | ❌       | ✅   |
+| Google Sign In                                                       | ❌       | ✅   |
+| Apple Sign In                                                        | ❌       | ✅   |
+| Email Link Sign In                                                   | ❌       | ✅   |
+| Common Cubits                                                        | ❌       | ✅   |
+| In App Purchases (RevenueCat)                                        | ❌       | ✅   |
+| App Store Review Request                                             | ❌       | ✅   |
+| Notifications (Firebase)                                             | ❌       | ✅   |
+| HTTP Requests                                                        | ❌       | ✅   |
+| Local Storage                                                        | ❌       | ✅   |
+| Permissions                                                          | ❌       | ✅   |
+| Environments                                                         | ❌       | ✅   |
+| Localization                                                         | ❌       | ✅   |
+| Dark Mode                                                            | ❌       | ✅   |
+| Connectivity check                                                   | ❌       | ✅   |
+| Hive - local database                                                | ❌       | ✅   |
+| MixPanel - analytics                                                 | ❌       | ✅   |
+| Android - Release Signing                                            | ❌       | ✅   |
+| Onboarding                                                           | ❌       | ✅   |
+| Forgot Password                                                      | ❌       | ✅   |
+| 🎉 BONUS: Scalable Firebase Backend Template                         | ❌       | ✅   |
 
-## Pro - $200 off presale (first 10 customers)
+## Pro - $200 OFF PRESALE (first 10 customers)
 
-Want more features? Check out the pro version.
+[Get Your Scalable Flutter App PRO for $200 OFF Here](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
 
-Get your $200 off presale here (limited to first 10 customers, use `APP200` discount code): [$200 OFF](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
+$200 off discount code (`APP200`) is limited to first 10 customers.
 
 Scalable Flutter App - Pro launches in November.
 
-## Pro - Features
+# Docs
 
-- [X] Email Support
-- [X] Lifetime updates
-- [ ] Firebase Project Integration
-- [ ] Firebase Authentication
-- [ ] Firebase Remote Config
-- [ ] Firebase Crashlytics
-- [ ] Firebase Firestore
-- [ ] Firebase Analytics
-- [ ] Firebase Storage
-- [ ] Google Sign In
-- [ ] Apple Sign In
-- [ ] Email Link Sign In
-- [ ] Common Cubits
-- [ ] In App Purchases (RevenueCat)
-- [ ] App Store Review Request
-- [ ] Notifications (Firebase)
-- [ ] HTTP Requests
-- [ ] Local Storage
-- [ ] Permissions
-- [ ] Environments
-- [ ] Localization
-- [ ] Dark Mode
-- [ ] Connectivity check
-- [ ] Hive - local database
-- [ ] MixPanel - analytics
-- [ ] Android - Release Signing
-- [ ] Onboarding
-- [ ] Forgot Password
-- [ ] 🎉 BONUS: Scalable Firebase Backend Project Template: Cloud Functions & Firestore Security Rules
+## Code Architecture
 
-...and much more!
-
-## Docs
-
-### Code Architecture
-
-The code architecture is based on [flutter_bloc architecture proposal](https://bloclibrary.dev/#/architecture).
+The code architecture is based on
+[flutter_bloc architecture proposal](https://bloclibrary.dev/#/architecture).
 
 There are 4 layers:
 
@@ -110,7 +131,24 @@ And we avoid same-layer communication (as it creates interdependencies):
 - `UserRepository` calling `AuthRepository` is _**not**_ allowed.
 - `UserCubit` calling `UserRepository` and `AuthRepository` is allowed.
 
-### Google Fonts
+## Styling
+
+Styling is based on [Google's Material Design](https://material.io/design).
+
+App-wide styling is defined in `core/app/style.dart` and is easy to update.
+
+Here's a quick tip on custom Widget params. There are 2 Widget param types:
+
+- data (user, title, ...)
+- style (colors, paddings, ...)
+
+Our custom Widgets should only hava data params.
+
+And the style should be done app-wide (in `style.dart`).
+
+That way all of our UI is consistent and easy to update.
+
+## Google Fonts
 
 To change the font:
 
@@ -119,16 +157,16 @@ To change the font:
 3. Add the font files to `assets/fonts` (remove the old ones).
 4. Update `style.dart` with the new font (i.e. `return GoogleFonts.rubikTextTheme(textTheme)`).
 
-### Useful GitHub Pull Request Settings
+## Useful GitHub Pull Request Settings
 
 I've found that turning on these 2 settings in GitHub repo settings helps a lot:
 
 1. `Always suggest updating pull request branches`
 2. `Automatically delete head branches`
 
-## FAQ
+# FAQ
 
-### Why flutter_bloc and not X?
+## Why flutter_bloc and not X?
 
 While GetX, Provider, Riverpod, MobX, Redux, etc. are all great solutions,
 most of them are too forgiving. They allow us to access and change state globally.
@@ -136,18 +174,22 @@ most of them are too forgiving. They allow us to access and change state globall
 Whereas [flutter_bloc](https://bloclibrary.dev/) forces us to have `BuildContext`
 in order to access and change the state. The stricter the rules, the harder it is to make mistakes.
 
-And flutter_bloc has a great [architecture proposal](https://bloclibrary.dev/#/architecture) that scales well.
+And flutter_bloc has a great [architecture proposal](https://bloclibrary.dev/#/architecture) that
+scales well.
 
-## Resources
+# Resources
 
 Build your app icon in minutes (free): [Icon Kitchen](https://icon.kitchen/)
 
 CI/CD for mobile apps (free & paid): [Codemagic](https://codemagic.io/)
 
-Want me to launch your MVP in 4 weeks (premium)? [Go to App Launch Program](https://applaunchprogram.com/)
+Want me to launch your MVP in 4 weeks (premium)?
+[Go to App Launch Program](https://applaunchprogram.com/)
 
-## Feedback
+# Feedback
 
-Found an issue or want to request a feature? Open an [issue](https://github.com/Gradoid/scalable_flutter_app_starter/issues)
+Found an issue or want to request a feature? Open
+an [issue](https://github.com/Gradoid/scalable_flutter_app_starter/issues)
 
-Have a question? Ask me on [LinkedIn](https://www.linkedin.com/in/milos-jokic/) or [Twitter](https://twitter.com/miloshjokic).
+Have a question? Ask me on [LinkedIn](https://www.linkedin.com/in/milos-jokic/)
+or [Twitter](https://twitter.com/miloshjokic).
