@@ -103,7 +103,7 @@ You can find me on:
 
 [Get Your Scalable Flutter App PRO for $47 ($200 OFF) Here](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
 
-$200 off discount code (`APP200`) is limited to first 10 customers.
+$200 off discount code (`APP200`) lasts until end of October.
 
 Scalable Flutter App - Pro launches in November.
 
@@ -203,7 +203,7 @@ I can only recommend what I've used myself:
 ## What if I want more?
 
 If you want Firebase integration, notifications, in-app purchases and more,
-you can get the Pro version here ($200-off discount is limited to first 10 customers only):
+you can get the Pro version here ($200-off discount lasts until end of October):
 
 [Get Your Scalable Flutter App PRO for $47 ($200 OFF)](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
 
