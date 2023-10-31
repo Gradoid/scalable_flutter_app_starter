@@ -10,7 +10,7 @@ class ScalableFlutterApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return DI(
       child: MaterialApp.router(
-        title: 'Scalable Flutter App',
+        title: 'Scalable Flutter App Starter',
         theme: lightTheme,
         debugShowCheckedModeBanner: false,
         routerConfig: router,

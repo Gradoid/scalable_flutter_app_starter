@@ -10,6 +10,7 @@ Watch/star this repo to be notified when updates are pushed.
 * [Scalable Flutter App Starter](#scalable-flutter-app-starter)
   * [Table of Contents](#table-of-contents)
   * [What is Scalable Flutter App?](#what-is-scalable-flutter-app)
+  * [Requirements](#requirements)
   * [About the Author](#about-the-author)
 * [Features](#features)
   * [Pro Presale Discount](#pro-presale-discount)
@@ -22,6 +23,7 @@ Watch/star this repo to be notified when updates are pushed.
   * [Why bloc and not X?](#why-bloc-and-not-x)
   * [Who is Scalable Flutter App for?](#who-is-scalable-flutter-app-for)
   * [Where to learn Flutter basics?](#where-to-learn-flutter-basics)
+  * [What if I don't need a specific feature?](#what-if-i-dont-need-a-specific-feature)
   * [What if I want more?](#what-if-i-want-more)
 * [Resources](#resources)
 * [Feedback](#feedback)
@@ -34,6 +36,14 @@ Scalable Flutter App is a starter template for Flutter apps.
 It's designed to be scalable and easy to maintain. And should save you weeks of development time.
 
 To get started, click on the green "Use this template" button on the top-right.
+
+## Requirements
+
+Always keep up to date:
+
+- Flutter
+- Cocoapods
+- Firebase CLI
 
 ## About the Author
 
@@ -101,11 +111,11 @@ You can find me on:
 
 ## Pro Presale Discount
 
-[Get Your Scalable Flutter App PRO for $47 ($200 OFF) Here](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
+[Get Your Scalable Flutter App PRO for $97 ($150 OFF) Here](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP150)
 
-$200 off discount code (`APP200`) lasts until end of October.
+$150 off discount code (`APP150`) applies for first 30 customers in November.
 
-Scalable Flutter App - Pro launches in November.
+Scalable Flutter App - Pro launches mid November.
 
 # Docs
 
@@ -136,6 +146,13 @@ And we avoid same-layer communication (as it creates interdependencies):
 
 - `UserRepository` calling `AuthRepository` is _**not**_ allowed.
 - `UserCubit` calling `UserRepository` and `AuthRepository` is allowed.
+
+When creating Providers, Repositories, and Cubits we follow this rule:
+
+- Providers are created top-level (so that they can be used in multiple Repositories)
+- Repositories are created top-level (so that they can be used in multiple Cubits)
+- Cubits are created in the router builder callbacks (so that they're accessible only where needed)
+- Cubits that are used in multiple screens are created top-level
 
 ## Styling
 
@@ -200,16 +217,25 @@ I can only recommend what I've used myself:
 - [Effective Dart](https://dart.dev/guides/language/effective-dart)
 - and just keep building apps and getting better with each one :)
 
+## What if I don't need a specific feature?
+
+If you don't need a feature:
+
+- delete its imported package in `pubspec.yaml`
+- delete the code that uses the feature
+
 ## What if I want more?
 
 If you want Firebase integration, notifications, in-app purchases and more,
-you can get the Pro version here ($200-off discount lasts until end of October):
+you can get the Pro version here ($150-off discount applies for first 30 customers in November):
 
-[Get Your Scalable Flutter App PRO for $47 ($200 OFF)](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP200)
+[Get Your Scalable Flutter App PRO for $47 ($150 OFF)](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP150)
 
 # Resources
 
 Build your app icon in minutes (free): [Icon Kitchen](https://icon.kitchen/)
+
+Cool illustrations that match your app's colors (free): [unDraw](https://undraw.co/illustrations)
 
 CI/CD for mobile apps (free & paid): [Codemagic](https://codemagic.io/)
 
@@ -225,3 +251,5 @@ an [issue](https://github.com/Gradoid/scalable_flutter_app_starter/issues)
 
 Have a question? Ask me on [LinkedIn](https://www.linkedin.com/in/milos-jokic/)
 or [Twitter](https://twitter.com/miloshjokic).
+
+Enjoying Scalable Flutter App? [Leave a testimonial](https://testimonial.to/scalable-flutter-app)
