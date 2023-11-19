@@ -32,7 +32,7 @@ class AppVersion extends StatelessWidget {
             ),
             const LabeledTextButton(
               label: 'Get the PRO version',
-              action: r'$150 OFF',
+              action: 'GET IT NOW',
               onTap: Urls.showBuyPro,
             ),
           ],

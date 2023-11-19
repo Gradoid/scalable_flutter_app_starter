@@ -13,7 +13,7 @@ Watch/star this repo to be notified when updates are pushed.
   * [Requirements](#requirements)
   * [About the Author](#about-the-author)
 * [Features](#features)
-  * [Pro Presale Discount](#pro-presale-discount)
+  * [Scalable Flutter App Pro](#scalable-flutter-app-pro)
 * [Docs](#docs)
   * [Code Architecture](#code-architecture)
   * [Styling](#styling)
@@ -90,11 +90,11 @@ You can find me on:
 | Firebase Storage                                                     | ❌       | ✅   |
 | Google Sign In                                                       | ❌       | ✅   |
 | Apple Sign In                                                        | ❌       | ✅   |
-| Email Link Sign In                                                   | ❌       | ✅   |
 | Common Cubits                                                        | ❌       | ✅   |
 | In App Purchases (RevenueCat)                                        | ❌       | ✅   |
 | App Store Review Request                                             | ❌       | ✅   |
-| Notifications (Firebase)                                             | ❌       | ✅   |
+| Local Notifications                                                  | ❌       | ✅   |
+| Remote Notifications (Firebase)                                      | ❌       | ✅   |
 | HTTP Requests                                                        | ❌       | ✅   |
 | Local Storage                                                        | ❌       | ✅   |
 | Permissions                                                          | ❌       | ✅   |
@@ -109,13 +109,9 @@ You can find me on:
 | Forgot Password                                                      | ❌       | ✅   |
 | 🎉 BONUS: Scalable Firebase Backend Template                         | ❌       | ✅   |
 
-## Pro Presale Discount
+## Scalable Flutter App Pro
 
-[Get Your Scalable Flutter App PRO for $97 ($150 OFF) Here](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP150)
-
-$150 off discount code (`APP150`) applies for first 30 customers in November.
-
-Scalable Flutter App - Pro launches mid November.
+[Grab Scalable Flutter App - Pro Here](https://scalableflutterapp.com/)
 
 # Docs
 
@@ -227,9 +223,7 @@ If you don't need a feature:
 ## What if I want more?
 
 If you want Firebase integration, notifications, in-app purchases and more,
-you can get the Pro version here ($150-off discount applies for first 30 customers in November):
-
-[Get Your Scalable Flutter App PRO for $47 ($150 OFF)](https://gradoid.lemonsqueezy.com/checkout/buy/b8fff0c2-d8ce-4af2-ac33-b675ef858c5c?checkout%5Bdiscount_code%5D=APP150)
+[get the Pro version here](https://scalableflutterapp.com/):
 
 # Resources
 
